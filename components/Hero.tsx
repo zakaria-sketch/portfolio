@@ -6,7 +6,10 @@ import WorkflowBackground from "./WorkflowBackground";
 
 export default function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28">
+    <section
+      id="top"
+      className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-28"
+    >
       <div className="absolute inset-0 pointer-events-none">
         <WorkflowBackground />
       </div>
@@ -52,12 +55,12 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.15 }}
           className="relative mx-auto"
         >
-          <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden border border-hair shadow-[0_0_60px_-15px_var(--accent-glow)]">
+          <div className="relative w-52 h-52 md:w-72 md:h-72 rounded-full overflow-hidden border border-hair shadow-[0_0_60px_-15px_var(--accent-glow)]">
             <Image
-              src="/images/zakaria.jpeg"
+              src="/images/1775860077564.jpeg"
               alt="Portrait of Zakaria Moustakim"
               fill
-              sizes="(max-width: 768px) 224px, 288px"
+              sizes="(max-width: 768px) 208px, 288px"
               className="object-cover"
               priority
             />
