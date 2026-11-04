@@ -92,9 +92,9 @@ export const techStack = [
 ];
 
 export const metrics = [
-  { value: "5+", label: "Years in Software Engineering & QA" },
+  { value: "6+", label: "Years in Software Engineering & QA" },
   { value: "10+", label: "AI Automation Solutions Built" },
-  { value: "100+", label: "Workflow Automations Shipped" },
+  { value: "10+", label: "Workflow Automations Shipped" },
 ];
 
 export const enterpriseLogos = ["IDEMIA", "STELLANTIS", "Capgemini", "Sigma Logical"];
